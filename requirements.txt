@@ -1,0 +1,2 @@
+# I couldn't get pyo versions later than 1.0.1 to install on Windows
+pyo==1.0.1
