@@ -13,23 +13,9 @@ The video is from [a presentation by Dror Ayalon](https://2017.pygotham.org/talk
 Let's have a go at that :)
 
 
-## Getting set up to use Pyo
+## Setup your git project
 
-1. Use Python 3
-2. Create and enter a virtualenv
-3. Install the pyo module in the virtualenv
-    - Note: On Windows, I was unable to successfully install any version of pyo later than 1.0.1.
-4. Run a couple of diagnostic scripts to see how pyo sees our audio environment.
-    - See the link below about configuring audio for Pyo on Windows.
-5. Later, when we're making sounds, let's try using different audio interfaces.
-
-## Start to play with pyo
-
-Take a look at the code [examples](./examples)
-
-Make your own scripts
-
-Fork this project on githhub so you can check in your scripts to your fork
+Fork my project on githhub so you can have your own copy to check in your scripts to.
 
 ```
 git clone <your fork>
@@ -45,6 +31,26 @@ git commit -m 'message'
 git push
 ```
 (... and you can do those 3 steps easily in VSCode)
+
+
+Make your own markdown file to keep notes... or edit the original README.md.
+
+
+## Getting set up to use Pyo
+
+1. Use Python 3
+2. Create and enter a virtualenv
+3. Install the pyo module in the virtualenv
+    - Note: On Windows, I was unable to successfully install any version of pyo later than 1.0.1.
+4. Run a couple of diagnostic scripts to see how pyo sees our audio environment.
+    - See the link below about configuring audio for Pyo on Windows.
+5. Later, when we're making sounds, let's try using different audio interfaces.
+
+## Start to play with pyo
+
+Take a look at the code [examples](./examples)
+
+Make your own scripts. Commit and push them to your github repo.
 
 
 ## Useful links
