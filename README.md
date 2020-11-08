@@ -62,6 +62,8 @@ Pyo Developer docs: http://ajaxsoundstudio.com/pyodoc/
 
 Debugging and configuring audio for Pyo on Windows: http://ajaxsoundstudio.com/pyodoc/winaudioinspect.html
 
+The git repo of Pyo: https://github.com/belangeo/pyo
+
 A git repo with the content of video presentation: https://github.com/dodiku/music-synthesis-with-python
 
 
