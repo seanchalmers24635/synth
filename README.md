@@ -18,9 +18,9 @@ Let's have a go at that :)
 1. Use Python 3
 2. Create and enter a virtualenv
 3. Install the pyo module in the virtualenv
-  - Note: On Windows, I was unable to successfully install any version of pyo later than 1.0.1.
+    - Note: On Windows, I was unable to successfully install any version of pyo later than 1.0.1.
 4. Run a couple of diagnostic scripts to see how pyo sees our audio environment.
-  - See the link below about configuring audio for Pyo on Windows.
+    - See the link below about configuring audio for Pyo on Windows.
 5. Later, when we're making sounds, let's try using different audio interfaces.
 
 ## Start to play with pyo
