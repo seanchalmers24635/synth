@@ -29,8 +29,21 @@ Take a look at the code [examples](./examples)
 
 Make your own scripts
 
-Fork this project and check in your scripts to your fork
+Fork this project on githhub so you can check in your scripts to your fork
 
+```
+git clone <your fork>
+cd <directory>
+```
+
+Add and edit your own script files
+
+When you want to commit to github:
+```
+git add .
+git commit -m 'message'
+git push
+```
 
 ## Useful links
 
