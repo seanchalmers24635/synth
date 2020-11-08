@@ -15,7 +15,10 @@ Let's have a go at that :)
 
 ## Setup your git project
 
+Do `git config` to set your username and email
+
 Fork my project on githhub so you can have your own copy to check in your scripts to.
+
 
 ```
 git clone <your fork>
@@ -79,3 +82,4 @@ https://github.com/belangeo/pyo-tools
 
 https://wiki.wxpython.org/FrontPage
 
+How to run on Jupyter notebook like Dror did?
