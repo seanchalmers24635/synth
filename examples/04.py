@@ -5,6 +5,12 @@ http://ajaxsoundstudio.com/pyodoc/api/classes/triggers.html#pyo.Metro
 from pyo import *
 
 s = Server()
+# Try different audio systems
+s = Server(duplex=1, winhost="asio")
+
+# Try setting different input/output devices
+s.setInputDevice(2)
+s.setOutputDevice(7)
 s.boot()
 s.start()
 

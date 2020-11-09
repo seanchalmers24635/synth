@@ -8,6 +8,12 @@ Hint: comment out the 'stop()' lines to hear that element
 from pyo import *
 
 s = Server()
+# Try different audio systems
+s = Server(duplex=1, winhost="asio")
+
+# Try setting different input/output devices
+s.setInputDevice(2)
+s.setOutputDevice(7)
 
 # Start the server
 s.boot()
@@ -41,7 +47,7 @@ pitch = TrigXnoiseMidi(beat, dist=3, scale=0, mrange=(24, 24))
 ## Triggering an oscillator ##########################
 
 oscillator = Osc(table=wav, freq=pitch, mul=amplitude).out()
-oscillator.stop()
+#oscillator.stop()
 
 
 ## We love synth ##########################
@@ -64,14 +70,14 @@ envelope_synth = TrigEnv(metro_synth, table=sig, dur=0.5)
 
 synth = FM(carrier=[220.5,220], ratio=[.2498,.2503], index=envelope_synth, mul=0.5).out()
 synth = FM(carrier=lfo, ratio=[.2498,.2503], index=envelope_synth, mul=0.3).out()
-synth.stop()
+#synth.stop()
 
 
 ## Who doesn't like the 80's ? ##########################
 
 lfd = Sine([.4,.2], mul=.2, add=.5)
 synth_80 = SuperSaw(freq=440, detune=lfd, bal=6, mul=0.2).out()
-synth_80.stop()
+#synth_80.stop()
 
 ###########################################
 
