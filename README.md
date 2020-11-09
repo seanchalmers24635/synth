@@ -10,7 +10,7 @@ Take a look at 5 mins of [this YouTube video](https://www.youtube.com/watch?v=RO
 The video is from [a presentation by Dror Ayalon](https://2017.pygotham.org/talks/music-synthesis-in-python/) at the PyGotham event in 2017.
 
 
-Let's have a go at that :)  Ok
+Let's have a go at that :)  
 
 
 ## Setup your git project
